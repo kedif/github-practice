@@ -1,0 +1,72 @@
+h1{
+    color: goldenrod;
+    font-size: 40px;
+    background-color: aqua;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+ul{
+    display: flex;
+    align-items: center;
+}
+li {
+    list-style-type: none;
+}     
+ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-right: 10em;
+    margin-left: 4em;
+}
+ul li a:hover{
+    color: hotpink;
+    cursor: progress;
+    background-color:lawngreen;
+}
+p{
+    text-transform: uppercase;
+}
+aside{
+    height: 400px;
+    width: 500px;
+    background-image: url("../img/logo1.png");
+    background-repeat: no-repeat;
+    color: white;
+}
+.table{
+    height: 41vw;
+    width: 35vw;
+    border: red solid 2px;
+    margin: 5px;
+}
+.boxS{
+    width: 60vw;
+    height: 20vw;
+    border: solid orange 3px;
+    margin: 5px;
+}
+.container{
+    width: 100vw;
+    height: 10vw;
+    border: orange solid 2px;
+    margin: 5px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+}
+
+.boxL{
+    float: left;
+}
+.boxR{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.cont{
+    background-color: goldenrod;
+}
