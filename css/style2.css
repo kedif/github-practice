@@ -15,6 +15,7 @@ ul{
 }
 li {
     list-style-type: none;
+    font-family: 'Anton', sans-serif
 }     
 ul li a{
     text-decoration: none;
@@ -31,7 +32,6 @@ ul li a:hover{
 aside{
     height: 400px;
     width: 500px;
-    background-image: url("../img/logo1.png");
     background-repeat: no-repeat;
     color: white;
 }
@@ -80,6 +80,5 @@ aside{
     padding-bottom: 0.1em;
     color: blue;
 }
- 
 
 
